@@ -211,6 +211,7 @@
             this.btn_limpar.TabIndex = 16;
             this.btn_limpar.Text = "C";
             this.btn_limpar.UseVisualStyleBackColor = true;
+            this.btn_limpar.Click += new System.EventHandler(this.btn_limpar_c);
             // 
             // txt_valor
             // 

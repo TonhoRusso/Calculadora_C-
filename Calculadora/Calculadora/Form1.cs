@@ -25,5 +25,10 @@ namespace Calculadora
             Button bt = (Button)sender;
             txt_valor.Text = txt_valor.Text + bt.Text;
         }
+
+        private void btn_limpar_c(object sender, EventArgs e)
+        {
+            txt_valor.Text = "";
+        }
     }
 }
