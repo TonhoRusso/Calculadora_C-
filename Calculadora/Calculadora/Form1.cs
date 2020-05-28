@@ -12,14 +12,18 @@ namespace Calculadora
 {
     public partial class Form1 : Form
     {
+        string operador;
+        int a = 0;
+        bool validar = false;
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void button7_Click(object sender, EventArgs e)
+        private void btn_numerador(object sender, EventArgs e)
         {
-
+            Button bt = (Button)sender;
+            txt_valor.Text = txt_valor.Text + bt.Text;
         }
     }
 }
