@@ -193,6 +193,7 @@
             this.btn_adicao.TabIndex = 14;
             this.btn_adicao.Text = "+";
             this.btn_adicao.UseVisualStyleBackColor = true;
+            this.btn_adicao.Click += new System.EventHandler(this.btn_somar);
             // 
             // btn_resultado
             // 
@@ -220,6 +221,7 @@
             this.txt_valor.Name = "txt_valor";
             this.txt_valor.Size = new System.Drawing.Size(260, 38);
             this.txt_valor.TabIndex = 17;
+            this.txt_valor.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label1
             // 

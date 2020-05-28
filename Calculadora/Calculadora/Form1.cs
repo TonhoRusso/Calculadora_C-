@@ -30,5 +30,24 @@ namespace Calculadora
         {
             txt_valor.Text = "";
         }
+
+        private void btn_somar(object sender, EventArgs e)
+        {
+            if (validar == true)
+            {
+                a = a + Convert.ToInt32(txt_valor.Text);
+                label1.Text = Convert.ToString(a);
+                txt_valor.Text = "";
+                operador = "+";
+            }
+            else
+            {
+                label1.Text = txt_valor.Text + btn_adicao.Text;
+                a = Convert.ToInt32(txt_valor.Text);
+                txt_valor.Text = "";
+                operador = "+";
+                validar = true;
+            }
+        }
     }
 }
