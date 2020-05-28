@@ -29,6 +29,8 @@ namespace Calculadora
         private void btn_limpar_c(object sender, EventArgs e)
         {
             txt_valor.Text = "";
+            label1.Text = "";
+            a = 0;
         }
 
         private void btn_somar(object sender, EventArgs e)
