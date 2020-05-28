@@ -182,7 +182,7 @@
             this.btn_subtracao.Name = "btn_subtracao";
             this.btn_subtracao.Size = new System.Drawing.Size(47, 39);
             this.btn_subtracao.TabIndex = 13;
-            this.btn_subtracao.Text = "=";
+            this.btn_subtracao.Text = "-";
             this.btn_subtracao.UseVisualStyleBackColor = true;
             // 
             // btn_adicao
