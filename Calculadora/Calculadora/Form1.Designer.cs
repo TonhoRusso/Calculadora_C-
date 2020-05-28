@@ -184,6 +184,7 @@
             this.btn_subtracao.TabIndex = 13;
             this.btn_subtracao.Text = "-";
             this.btn_subtracao.UseVisualStyleBackColor = true;
+            this.btn_subtracao.Click += new System.EventHandler(this.btn_subtracao_Click);
             // 
             // btn_adicao
             // 
