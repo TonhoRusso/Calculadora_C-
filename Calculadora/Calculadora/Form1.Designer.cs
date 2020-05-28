@@ -206,6 +206,7 @@
             this.btn_resultado.TabIndex = 15;
             this.btn_resultado.Text = "=";
             this.btn_resultado.UseVisualStyleBackColor = true;
+            this.btn_resultado.Click += new System.EventHandler(this.btn_resultado_Click);
             // 
             // btn_limpar
             // 

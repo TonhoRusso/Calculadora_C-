@@ -31,6 +31,7 @@ namespace Calculadora
             txt_valor.Text = "";
             label1.Text = "";
             a = 0;
+            validar = false;
         }
 
         private void btn_somar(object sender, EventArgs e)
@@ -106,6 +107,33 @@ namespace Calculadora
                 txt_valor.Text = "";
                 operador = "-";
                 validar = true;
+            }
+        }
+
+        private void btn_resultado_Click(object sender, EventArgs e)
+        {
+            if (operador == "+")
+            {
+                label1.Text = label1.Text + txt_valor.Text + "=";
+                txt_valor.Text = Convert.ToString(a + Convert.ToInt32(txt_valor.Text));
+            }
+
+            else if (operador == "-")
+            {
+                label1.Text = label1.Text + txt_valor.Text + "=";
+                txt_valor.Text = Convert.ToString(a - Convert.ToInt32(txt_valor.Text));
+            }
+
+            else if (operador == "*")
+            {
+                label1.Text = label1.Text + txt_valor.Text + "=";
+                txt_valor.Text = Convert.ToString(a * Convert.ToInt32(txt_valor.Text));
+            }
+
+            else if (operador == "/")
+            {
+                label1.Text = label1.Text + txt_valor.Text + "=";
+                txt_valor.Text = Convert.ToString(a / Convert.ToInt32(txt_valor.Text));
             }
         }
     }
