@@ -175,6 +175,7 @@
             this.btn_multiplicacao.TabIndex = 12;
             this.btn_multiplicacao.Text = "*";
             this.btn_multiplicacao.UseVisualStyleBackColor = true;
+            this.btn_multiplicacao.Click += new System.EventHandler(this.btn_multiplicacao_Click);
             // 
             // btn_subtracao
             // 
