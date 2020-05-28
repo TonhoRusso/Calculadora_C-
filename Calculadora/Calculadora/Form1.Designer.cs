@@ -166,6 +166,7 @@
             this.btn_divisao.TabIndex = 11;
             this.btn_divisao.Text = "/";
             this.btn_divisao.UseVisualStyleBackColor = true;
+            this.btn_divisao.Click += new System.EventHandler(this.btn_divisao_Click);
             // 
             // btn_multiplicacao
             // 
